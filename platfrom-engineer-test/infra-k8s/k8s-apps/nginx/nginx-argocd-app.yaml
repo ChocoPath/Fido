@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/ChocoPath/Fido/platform-engineer-test.git'
+    repoURL: 'https://github.com/ChocoPath/Fido/platfrom-engineer-test.git'
     targetRevision: HEAD
-    path: infra-k8s/k8s-apps/nginx/nginx-argocd-app
+    path: infra-k8s/k8s-apps/nginx-helm-chart
     helm:
       valueFiles:
         - values.yaml
