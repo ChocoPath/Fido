@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: 'https://github.com/ChocoPath/Fido.git'
     targetRevision: HEAD
-    path: infra-k8s/k8s-apps/my-service
+    path: platfrom-engineer-test/infra-k8s/k8s-apps/my-service
   syncPolicy:
     automated:
       prune: true
