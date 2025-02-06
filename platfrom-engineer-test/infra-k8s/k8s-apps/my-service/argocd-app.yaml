@@ -1,20 +1,18 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: argoproj.io/v1alpha1
+kind: Application
 metadata:
   name: my-service
-  namespace: default
+  namespace: argocd
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: my-service
-  template:
-    metadata:
-      labels:
-        app: my-service
-    spec:
-      containers:
-        - name: my-service
-          image: my-registry.local:5000/my-service:latest
-          ports:
-            - containerPort: 8080
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    repoURL: 'https://github.com/ChocoPath/Fido.git'
+    targetRevision: HEAD
+    path: infra-k8s/k8s-apps/my-service
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
