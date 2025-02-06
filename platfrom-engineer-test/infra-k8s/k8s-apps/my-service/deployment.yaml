@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
         - name: my-service
-            image: chocopath/myservice:latest ports:
+            image: chocopath/myservice:latest
             - containerPort: 8080
