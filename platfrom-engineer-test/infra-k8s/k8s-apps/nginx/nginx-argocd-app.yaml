@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/ChocoPath/Fido/platfrom-engineer-test.git'
     targetRevision: HEAD
-    path: /infra-k8s/k8s-apps/nginx/nginx-argocd-app
+    path: infra-k8s/k8s-apps/nginx/nginx-argocd-app
     helm:
       valueFiles:
         - values.yaml
