@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: my-service
-          image: registry.local:5001/registry:2
+          image: registry.local:5001/myservice:latest
           ports:
             - containerPort: 8080
