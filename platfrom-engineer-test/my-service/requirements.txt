@@ -5,3 +5,4 @@ aiohttp
 pydantic_settings
 requests
 loguru
+httpx

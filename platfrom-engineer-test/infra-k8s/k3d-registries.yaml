@@ -1,4 +1,4 @@
 mirrors:
-  registry:
+  "registry.local:5001":
     endpoint:
       - http://registry.local:5001
