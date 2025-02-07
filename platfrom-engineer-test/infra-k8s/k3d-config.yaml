@@ -6,12 +6,12 @@ servers: 1
 agents: 3
 registries:
   create: 
-    name: my-registry
+    name: registry
   config: |
     mirrors:
-      "my-registry.local":
+      "registry.local":
         endpoint:
-          - http://my-registry.local:5000
+          - http://registry.local:5000
 ports:
   - port: 8080:80
     nodeFilters:

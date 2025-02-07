@@ -1,4 +1,4 @@
 mirrors:
-  my-registry:
+  registry:
     endpoint:
-      - http://my-registry/v2
+      - http://registry.local:5001
