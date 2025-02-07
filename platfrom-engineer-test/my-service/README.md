@@ -32,7 +32,7 @@ Response:
     ]
 }
 ```
-![Alt Text](/images/Screenshot 2025-02-07 at 1.54.02 PM.png)
+![plot](/images/Screenshot 2025-02-07 at 1.54.02 PM.png)
 
 
 ### List Projects
