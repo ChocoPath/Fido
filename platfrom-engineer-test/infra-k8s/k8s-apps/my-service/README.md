@@ -42,6 +42,9 @@ kubectl get deployments
 kubectl get services
 ```
 
+<img width="1680" alt="Screenshot 2025-02-08 at 10 38 27 AM" src="https://github.com/user-attachments/assets/a171cd0d-e785-47f3-9cd9-899864ced286" />
+
+
 ## Cleanup
 
 To remove the deployed resources, delete the Argo CD application and Kubernetes resources.
