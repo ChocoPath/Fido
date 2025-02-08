@@ -43,6 +43,9 @@ This guide provides the steps to deploy and run the Nginx app in an ArgoCD pipel
       ```sh
       argocd app sync nginx-app
       ```
+<img width="1680" alt="Screenshot 2025-02-08 at 10 38 17 AM" src="https://github.com/user-attachments/assets/befeac5d-b3a5-4c60-b71c-e975f8a922cf" />
+
+
 
 4. **Port Forwarding**
 
