@@ -32,8 +32,6 @@ Response:
     ]
 }
 ```
-![plot](/images/Screenshot 2025-02-07 at 1.54.02 PM.png)
-
 
 ### List Projects
 ```http
@@ -52,8 +50,6 @@ Response:
     ]
 }
 ```
-
-![Alt Text](/images/Screenshot 2025-02-07 at 1.53.15 PM.png)
 
 ## API Documentation
 - Swagger UI: `http://localhost:8000/docs`
