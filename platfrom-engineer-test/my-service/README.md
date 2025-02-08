@@ -32,6 +32,10 @@ Response:
     ]
 }
 ```
+<img width="1425" alt="Screenshot 2025-02-07 at 1 54 02 PM" src="https://github.com/user-attachments/assets/05656c8d-5a36-4ebf-9249-bce916c330d7" />
+
+
+
 
 ### List Projects
 ```http
@@ -50,6 +54,10 @@ Response:
     ]
 }
 ```
+<img width="1426" alt="Screenshot 2025-02-07 at 1 53 15 PM" src="https://github.com/user-attachments/assets/5e7d8cf0-1b8c-4a3a-b1c2-fda53ad8270d" />
+
+
+
 
 ## API Documentation
 - Swagger UI: `http://localhost:8000/docs`
